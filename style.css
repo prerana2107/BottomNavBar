@@ -450,10 +450,10 @@
         }
     }
 
-       /* ---------------------------------------------------
+    /* ---------------------------------------------------
        bottom-nav MEDIAQUERIES
     ----------------------------------------------------- */
-    @media (max-width: 768px) {
+    @media only screen and (min-width:350px) and (max-width: 768px) {
 
         body{
             margin: 0 0 55px 0;
@@ -484,7 +484,7 @@
             font-size: 13px;
             color: #444444;
             text-decoration: none;
-            padding: 10px 17px;
+            padding: 10px 24px;
             -webkit-tap-highlight-color: transparent;
             transition: background-color 0.1s ease-in-out;
         }
